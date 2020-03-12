@@ -1,4 +1,12 @@
 numbers = [1..10]
-def prime?(numbers)
- numbers
+class Fixnum
+  def prime?
+    ('1' * self) !~ /^1?$|^(11+?)\1+$/
+  end
 end
+
+
+#def prime?(numbers)
+ #numbers
+#end
+
