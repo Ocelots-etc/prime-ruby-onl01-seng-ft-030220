@@ -2,8 +2,8 @@ numbers = [1..10]
 
 def prime?(numbers)
   is_prime = true
-  for i in 2..n-1
-    if n % 1 == 0
+  for i in 2..numbers-1
+    if numbers % 1 == 0
       is_prime = false
     end
   end
