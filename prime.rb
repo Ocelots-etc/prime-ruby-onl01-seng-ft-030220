@@ -1,6 +1,6 @@
 n = [1..10]
 def prime?(n)
-    if numbers <= 1
+    if n <= 1
         false
     elsif numbers == 2
         true
