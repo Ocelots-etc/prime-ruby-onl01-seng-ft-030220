@@ -10,7 +10,7 @@ end
 
 def next_prime
     n = self+1
-    n = n + 1 until n.is_prime?
+    n = n + 1 until n.prime?
     n
 end
 
