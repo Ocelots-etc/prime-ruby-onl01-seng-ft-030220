@@ -2,7 +2,7 @@ numbers = [1..10]
 def prime?(numbers)
     if numbers <= 1
         false
-    elsif n == 2
+    elsif numbers == 2
         true
     else
         (2..n/2).none? { |i| n % i == 0}
