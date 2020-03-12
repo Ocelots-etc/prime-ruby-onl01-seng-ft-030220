@@ -1,4 +1,4 @@
-numbers = [1..10]
+n = [1..10]
 def prime?(numbers)
     if numbers <= 1
         false
