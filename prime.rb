@@ -1,13 +1,18 @@
 numbers = [1..10]
 
-def prime?(numbers)
-  is_prime = true
-  for i in 2..numbers-1
-    if numbers % 1 == 0
-      is_prime = false
-    end
-  end
-end
+#def prime?(numbers)
+#  is_prime = true
+#  for i in 2..numbers-1
+#    if numbers % 1 == 0
+#      is_prime = false
+#    end
+#  end
+#end
+ #=>> Failures:
+#  1) prime? returns true for prime numbers
+#     Failure/Error: expect(prime?(2)).to be(true)
+#       expected true
+#            got #<Range:17456260> => 2..1
 
 #def prime?
 #    return false if self <= 1
