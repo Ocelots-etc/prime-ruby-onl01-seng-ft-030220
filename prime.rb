@@ -1,4 +1,4 @@
 numbers = [1..10]
-def prime? 
+def prime?
 
 end
