@@ -1,6 +1,6 @@
 numbers = [1..10]
-def prime?(n)
-    if n <= 1
+def prime?(numbers)
+    if numbers <= 1
         false
     elsif n == 2
         true
